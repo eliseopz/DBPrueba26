@@ -29,3 +29,12 @@ create table Persona(
 );
 go
 
+/*DML*/
+
+/*crear-insertar un registro*/
+
+insert into Ciudad(nombre) values (N'Masaya')
+insert into Ciudad(nombre) values (N'Managua'), (N'Granada'), (N'Jinotepe'), (N'Leon') 
+--Mostrar registro
+
+select * from Ciudad 
